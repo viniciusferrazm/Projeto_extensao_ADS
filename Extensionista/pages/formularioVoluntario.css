@@ -1,0 +1,117 @@
+:root {
+    --colorPrincipal: #E67E22;
+}
+
+
+body {
+        font-family: Helvetica, sans-serif;
+    }
+
+.tamanhoInput {
+    width: 300px;
+}
+
+#textarea {
+    width: 400px;
+}
+
+.diasSemana {
+    margin-inline: 15px;
+}
+
+input, select, textarea{
+    max-width: 190px;
+    background-color: #f5f5f5;
+    color: #242424;
+    padding: .15rem .5rem;
+    min-height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    line-height: 1.15;
+    box-shadow: 0px 10px 20px -18px;
+  }
+  
+input:focus {
+    border-bottom: 2px solid var(--colorPrincipal);
+    border-radius: 4px 4px 2px 2px;
+  }
+
+select:focus {
+    border-bottom: 2px solid var(--colorPrincipal);
+    border-radius: 4px 4px 2px 2px;
+  }
+
+textarea:focus {
+    border-bottom: 2px solid var(--colorPrincipal);
+    border-radius: 4px 4px 2px 2px;
+  }
+
+.label {
+ 
+}
+
+/* Botão enviar */
+.botaoEnviar {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.botaoEnviar:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.botaoEnviar:active {
+  transform: scale(0.95);
+}
+
+/* Botão limpar */
+.botaoLimpar {
+    margin: 10px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f5f5f5;
+    background-image: linear-gradient(45deg, #242424 0%, #f5f5f5  51%, #242424 100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+.botaoLimpar:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+.botaoLimpar:active {
+    transform: scale(0.95);
+  }
+  

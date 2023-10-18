@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color:#ffffff;   
+}
+
+
+#topo{
+    margin: 25px;
+ }
+
+img{
+    border-radius: 15px;
+}
+
+.box{
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FF7F00;
+    text-align: center;
+    border-radius: 60px;    
+}
+
+.box h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 0.6;  
+}
+
+.box input[type = "text"], .box input[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #dfe6e9;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: #2d3436;
+    font-weight: bolder;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box input[type = "text"]:focus, .box input[type = "password"]:focus, .box img[class = "login-icon"]:focus{
+    width: 280px;
+    border-color: #3867d6;   
+}
+
+.box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3867d6;
+    padding: 14px 40px;
+    outline: none;
+    color: #2d3436;
+    font-weight: bolder;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;  
+}
+
+.box input[type = "submit"]:hover{
+    background: #3867d6;  
+}
+
+.b1{
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    font-size: 9px;
+    color: #ffffff;
+    padding: 0;
+}
+/*
+.form-input::before{
+    padding-left: 07px;
+    padding-top: 35px;
+    position: absolute;
+}
+*/
+.login-icon{
+    width: 35px;
+    position: absolute;
+    margin: 10px;
+    left: 130px;
+}
+/*
+.login-icon:hover{
+    width: 35px;
+    position: absolute;
+    margin: 10px;
+    left: 100px;
+    display: block;
+}
+*/
+
+.pass-icon{
+    width: 30px;
+    position: absolute;
+    margin: 9px;
+    left: 132px;
+}
+
+
